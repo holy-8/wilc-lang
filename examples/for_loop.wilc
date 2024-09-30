@@ -1,0 +1,10 @@
+GlobalLet i 0
+
+Label for
+    Print "{i} "
+    Add i 1 i
+End
+
+IfLessThan i 10
+    Jump for
+End

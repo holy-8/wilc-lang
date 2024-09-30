@@ -1,0 +1,4 @@
+Global::Let stdargs []
+Global::Let stdret []
+Global::Let stdretaddr []
+

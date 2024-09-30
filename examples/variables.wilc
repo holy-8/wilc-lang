@@ -1,0 +1,5 @@
+LocalLet num 10
+LocalLet str "Hi"
+LocalLet ls [1, 2, 3]
+
+PrintLine "num = {num}, str = '{str}', ls = {ls}"

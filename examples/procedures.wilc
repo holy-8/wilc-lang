@@ -1,0 +1,22 @@
+GlobalLet RETURN -1
+
+Label procedure
+    PrintLine "Hello!"
+    Jump RETURN
+End
+
+Label main
+    PrintLine "Before procedure()"
+
+    Add main 3 RETURN
+    Jump procedure
+
+    Add main 5 RETURN
+    Jump procedure
+
+    PrintLine "After procedure()"
+End
+
+IfEqual RETURN -1
+    Jump main
+End
